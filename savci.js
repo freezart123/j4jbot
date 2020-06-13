@@ -26,10 +26,10 @@ client.on('ready', () => {
         console.log(`Savcı Official | Bot Giriş Yaptı!`);
 });
 
-let davet = "https://discord.gg/"; //Sunucunuzun Davet Linki.
-let sunucuid = ""; //J4J Sunucusunun ID Numarası.
-let kanalid = ""; //J4J Sunucusundaki, J4J Kanalın ID Numarası.
-let token = ""; //Hesap Tokeninizi Yazın
+let davet = "Sunucu Davet Linki"; //Sunucunuzun Davet Linki.
+let sunucuid = "J4J Sunucu ID"; //J4J Sunucusunun ID Numarası.
+let kanalid = "J4J Kanal ID"; //J4J Sunucusundaki, J4J Kanalın ID Numarası.
+let token = "Buraya Token"; //Hesap Tokeninizi Yazın
 
 client.on("message", async msg => {
   if (msg.channel.type === "dm") {
